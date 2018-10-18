@@ -1,11 +1,13 @@
 #pragma once
+#include "Color.h"
 class Molecular
 {
+
 public:
 	Molecular();
-	void Randomize();
 	~Molecular();
-
-	float posX, posZ, posY, radius;
+	void randmize();
+	float posX, posZ, posY, radius ;
+	Color color;
 };
 
